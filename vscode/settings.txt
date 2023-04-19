@@ -1,0 +1,38 @@
+{
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vim.handleKeys": {
+    "<C-b>": false,
+    "<C-k>": false,
+    "<C-c>": false,
+    "<C-u>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-d>": false,
+    "<C-w>": false,
+    "<C-h>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    " ": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true
+}
